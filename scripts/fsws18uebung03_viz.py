@@ -135,7 +135,7 @@ def viz_input(model, premise, hypothesis):
 		print("\t" + hypothesis)
 		print("\n{:10.3f} for entailment,\n{:10.3f} for neutral and \n{:10.3f} for contradiction.".format(float(probs[0][0]), float(probs[0][1]), float(probs[0][2])))
 		
-		#Exercise function call
+		#Exercise function call, comment out for testing purposes
 		viz_entailment_pair("BOS " + premise + " EOS", "BOS " + hypothesis + " EOS", hyp_prem_attn[0].numpy())
 				
 	return probs
