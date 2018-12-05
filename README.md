@@ -22,7 +22,7 @@ Für die vollständige Bearbeitung dieser Teilaufgabe ist lediglich die Funktion
 zu implementieren. Sie wird von viz_input() aufgerufen, welche in der letzten Zeile von main() aufgerufen wird.
 Für das Format deines Plots findest du im Aufgabenblatt ein unverbindliches Beispiel zur Orientierung.
 
-Nach korrekter Implementation sollte dieses script über die Kommandozeile wie folgt aufgerufen werden können und einen MPL Graphen plotten:
+Nach korrekter Implementation sollte dieses script über die Kommandozeile wie folgt aufgerufen werden können und einen Graphen plotten:
 ```
 $ python3 fsws18uebung03_viz.py --prem 'A cat is on a mat .' --hyp 'An animal is outside .'
 ```
@@ -33,7 +33,7 @@ python3.5+
 
 torch
 
-matplotlib.pyplot o.Ä.
+matplotlib.pyplot or other
 
 wget
 
