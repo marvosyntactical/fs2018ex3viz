@@ -83,7 +83,7 @@ def lookup(token):
 	if token in worddict.keys():
 		return worddict[token]
 	else:
-		print("Warning: '{}' not in learned vocabulary.".format(token))
+		print("Warning: '{}' not in vocabulary.".format(token))
 		return 1
 		
 def embed(sentence):
