@@ -5,7 +5,7 @@ Snippets of the original readme are referred to and left at the bottom of this r
 
 ### Setup
 
-After cloning into this repository, refer to the *"Install the package"*, *"Fetch the data to train and test the model"* and *"Preprocess the data"* steps in the [ESIM](https://github.com/coetaur0/ESIM/) readme.
+After cloning into this repository, refer to the **"Install the package"**, **"Fetch the data to train and test the model"** and **"Preprocess the data"** steps in the [ESIM](https://github.com/coetaur0/ESIM/) readme.
 
 ### Uebung 3 Aufgabe 1
 Formale und Computationelle Semantik WS2018
