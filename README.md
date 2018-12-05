@@ -27,15 +27,17 @@ Nach korrekter Implementation sollte dieses script über die Kommandozeile wie f
 $ python3 fsws18uebung03_viz.py --prem 'A cat is on a mat .' --hyp 'An animal is outside .'
 ```
 -------------
-Dependencies
+Dependencies:
+
 python3.5+
 
 torch
+
 matplotlib.pyplot o.Ä.
+
 wget
 
 and many more. Refer to the Installation in the [ESIM](https://github.com/coetaur0/ESIM/) readme.
-
 The below are excerpts from the original readme and can be ignored for the exercise.
 
 # ESIM - Enhanced Sequential Inference Model
