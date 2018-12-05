@@ -64,10 +64,11 @@ def viz_entailment_pair(premise, hypothesis, confusionmatrix):
 	Visualizes attention matrix for entailment pair
 	
 	Args: 
-		premise: premise in string form: "A cat is on a mat ."
-		hypothesis: hypothesis in string form: "Tom is at the beach ."
-		confusionmatrix: confusion matrix with attention values.
-						 numpy matrix of size (hypothesis x premise)
+		premise: premise in string form: "BOS A cat is on a mat . EOS"
+		hypothesis: hypothesis in string form: "BOS Tom is at the beach . EOS"
+		confusionmatrix:confusion matrix with attention values.
+				first and last indices are begin of sequence and end of sequence tokens
+				numpy matrix of size (hypothesis x premise)
 	
 	Returns:
 		None
