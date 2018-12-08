@@ -1,4 +1,5 @@
 """
+
 help: python3 fsws18uebung03_viz.py -h
 
 Formale und Computationelle Semantik WS2018
