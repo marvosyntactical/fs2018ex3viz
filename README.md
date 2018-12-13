@@ -4,11 +4,20 @@ This project is an edited version of the [ESIM](https://github.com/coetaur0/ESIM
 Snippets of the original readme are referred to and left at the bottom of this readme.
 
 ### Setup
+It is recommended to create a virtual environment in the root of this repository and install required modules with pip3.
+After cloning into this repository, open the scripts/ folder on the command line and run the following
+```
+/scripts$ python3 fetch_data.py
 
-After cloning into this repository, refer to the **"Install the package"**, **"Fetch the data to train and test the model"** and **"Preprocess the data"** steps in the [ESIM](https://github.com/coetaur0/ESIM/) readme (using the fetch_data.py and preprocess_data.py from THIS repo. It is not necessary to download anything from the ESIM repo.) . Training is **not** necessary as we will be using a checkpoint.
+/scripts$ python3 preprocess_data.py
+```
+For further options (e.g. downloading a different dataset) refer to the relevant sections in the original [ESIM Readme](https://github.com/coetaur0/ESIM/).
+
+
 
 ### Uebung 3 Aufgabe 1
 Formale und Computationelle Semantik WS2018
+**Für das Setup siehe Setup**
 
 In dieser Aufgabe visualisierst du mithilfe von matplotlib oder einem anderen Visualisierungstool bzw. Modul deiner Wahl Attentionwerte von ESIM für beispielhafte Entailment-Paare.
 
