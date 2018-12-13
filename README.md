@@ -7,9 +7,9 @@ Snippets of the original readme are referred to and left at the bottom of this r
 It is recommended to create a virtual environment in the root of this repository and install required modules with pip3.
 After cloning into this repository, open the scripts/ folder on the command line and run the following
 ```
-/scripts$ python3 fetch_data.py
+example@computer:~/.../fs2018ex3viz/scripts$ python3 fetch_data.py
 
-/scripts$ python3 preprocess_data.py
+example@computer:~/.../fs2018ex3viz/scripts$ python3 preprocess_data.py
 ```
 For further options (e.g. downloading a different dataset) refer to the relevant sections in the original [ESIM Readme](https://github.com/coetaur0/ESIM/).
 
